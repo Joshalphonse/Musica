@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 
-export default class MainPage extends Component {
+class MainPage extends React.Component {
     render() {
         return (
             <div>
