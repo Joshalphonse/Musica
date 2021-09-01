@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import MusicCards from "../components/MusicCards";
 
-
-class MainPage extends React.Component {
-    render() {
-        return (
-            <div>
-                <h1>yoooo</h1>
-            </div>
-        )
-    }
+export default class MainPage extends Component {
+  render() {
+    return (
+      <div>
+        <MusicCards />
+      </div>
+    );
+  }
 }
